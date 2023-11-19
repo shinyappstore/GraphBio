@@ -1,33 +1,9 @@
-# GraphBio---A modular and scalable R Shiny dashboard
-GraphBio: a shiny web app to easily perform popular visualization analysis for omics data
-
-Website: http://www.graphbio1.com/ (chinese version) or http://www.graphbio1.com/en/ (english version)
-
-Cite: Zhao T and Wang Z (2022), GraphBio: A shiny web app to easily perform popular visualization analysis for omics data. Front. Genet. 13:957317.doi: 10.3389/fgene.2022.957317
-
-# Deploying to your own web server with docker.
-`docker pull databio2022/graphbio:v2.2.7-manual` <br>
-`docker run --rm -d -p 80:3838 -v /root/log/:/home/shiny/graphbio-log/ databio2022/graphbio:v2.2.7-manual /init`
-
-For english version, please use: <br>
-`docker pull databio2022/graphbio:v2.2.5-en-manual` <br>
-`docker run --rm -d -p 80:3838 -v /root/log/:/home/shiny/graphbio-log/ databio2022/graphbio:v2.2.5-en-manual /init`
-
-#### Demo data for each visualization function (files are placed in the graphbio-english/www/ directory)
-1. heatmap_test.csv and group_info.csv for heatmap.
-2. volcano_example.csv and volcano_example1.csv for volcano plot.
-3. cdc_example.csv and cdc-mutiple-group.csv for Cumulative Distribution Curves
-4. chord_example.csv for chord plot
-5. corr_net.csv for network plot
-6. corr_scatter.csv for correlation scatter plot
-7. go_bubble_example.csv for go dotplot style 2
-8. go_term_bubble.csv for go dotplot style 1
-9. ma_example.csv for MA plot
-10. pie_example.csv for pie plot
-11. roc_example.csv for ROC curve
-12. sixiangxian_example.csv for Four Quadrant Diagrams
-13. surv_example.csv for survival curves
-14. text_cluster_example.csv for cluster analysis
-15. venn_example.csv for venn plot
+![](https://shiny-app-store3.s3.amazonaws.com/approvedapp/s677_SnjibRqmmoM2WrIgCoXOrVrqZGLUtHTBOtwohKHt_logo_482.jpg)
 
 
+
+# GraphBio: Solution for Effortless Analysis Omics Data
+
+#### Use app online: __[www.shinyappstore.com/a/GraphBio](https://shinyappstore.com/a/GraphBio)__
+
+GraphBio is a sophisticated web application designed to facilitate the visualization and analysis of proteomics and metabolic omics data. "Omics" refers to large-scale, high-throughput biological data, and examples include genomics, proteomics, and metabolomics. GraphBio provides a comprehensive set of tools for users to analyze and visualize their omics datasets. GraphBio enables users to generate various visualizations such as heatmaps, volcano plots, cumulative distribution curves, chord plots, network plots, scatter plots, dot plots with two styles, MA plots, pie chart plots, ROC curves, Four Quadrant Diagrams, survival curves, cluster analyses, and venn plots. With its robust features, GraphBio empowers users to explore and understand complex biological data, making it a valuable resource for researchers and analysts working in the field of omics data analysis. Published: Front Genet. 2022 Sep 7:13:957317. doi: 10.3389/fgene.2022.957317. eCollection 2022.
